@@ -60,14 +60,15 @@ You will need to install the following locally:
 
 ## Monthly Cost Analysis
 Complete a month cost analysis of each Azure resource to give an estimate total cost using the table below:
+Here I assume that the cost is for production level (P1)
 
 | Azure Resource           | Service Tier                              | Monthly Cost |
 |--------------------------|-------------------------------------------|-------------|
-| *Azure Postgres Database* | Standard Tier (4 vCores + 100 GB storage) | $332.07    |
-| *Azure Service Bus*      | Basic                                     | $0.05       |
-| *Azure App Service*      | Free trial                                | $0.0        |
-| *Azure Function*         | Free trial                                | $0.0        |
-| *Azure App Service Plan* | Free trial (Y1)                           | $0.0        |
+| *Azure Postgres Database* | General Purpose, 4 vCores, 100 GB Storage | $332.07    |
+| *Azure Service Bus*      | Premium, 1 Daily Message Unit | $677.08       |
+| *Azure App Service*      | Premium v2 (P1V2): 1 Core, 3.5 GB RAM, 250 GB Storage   | $146        |
+| *Azure Function*         | Premium EP1: 1 Core, 3.5 GB Ram, 250 GB Storage                               | $310.54     |
+| *Azure App Service Plan* | Premium P1v2: 1 Cỏe, 3.5 GB Ram, 250 GB Storage                           | $146       |
 
 ## Architecture Explanation
 Azure Web App is a fully managed platform that enables developers to quickly build and deploy web applications without worrying about infrastructure management. It is a good choice for small web applications that don't require much maintenance effort. Developers can easily host the full source code, including HTML/CSS/JS and some frontend logic, on the Azure Web App and ensure that the application responds quickly to user actions on the website.
