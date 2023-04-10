@@ -70,7 +70,6 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 | *Azure App Service Plan* | Free trial (Y1)                           | $0.0        |
 
 ## Architecture Explanation
-This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
 Azure Web App is a fully managed platform that enables developers to quickly build and deploy web applications without worrying about infrastructure management. It is a good choice for small web applications that don't require much maintenance effort. Developers can easily host the full source code, including HTML/CSS/JS and some frontend logic, on the Azure Web App and ensure that the application responds quickly to user actions on the website.
 
 Azure Function is a serverless computing service that enables developers to run small pieces of code, known as functions, in response to events such as changes in data, user actions, or scheduled tasks. Azure Function is particularly suitable for asynchronous tasks that don't impact the user experience. By using Azure Function, developers can separate quick response frontend tasks from long-running background tasks, such as sending emails to millions of recipients, and ensure that the application remains responsive and reliable.
